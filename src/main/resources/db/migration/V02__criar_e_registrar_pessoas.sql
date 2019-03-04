@@ -14,4 +14,3 @@ CREATE TABLE pessoa(
 INSERT INTO pessoa (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo) values ('João Silva', 'Rua do Abacaxi', '10', null, 'Brasil', '38400-112', 'Uberlândia', 'MG', true);
 INSERT INTO pessoa (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo) values ('Daniel Queiroz', 'Rua Icoracy', '23', null, 'Brasil', '38220-232', 'Santarem', 'PA', true);
 INSERT INTO pessoa (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo) values ('Luiza Martins', 'Rua dos Anjos', '102', null, 'Brasil', '30400-120', 'São Paulo', 'SP', true);
-INSERT INTO pessoa (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo) values ('Pedro Henrique', 'Tv Onze', '12', null, 'Brasil', '30400-120', 'Londrina', 'PR', true);
