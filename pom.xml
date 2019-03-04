@@ -83,24 +83,22 @@
 		</dependency>
 	</dependencies>
 
-	<plugin>
-		<groupId>org.flywaydb</groupId>
-		<artifactId>flyway-maven-plugin</artifactId>
-		<version>4.0.3</version>
-		<configuration>
-			<user>root</user>
-			<password>toor</password>
-			<schemas>
-				<schema>moneyapi</schema>
-			</schemas>
-		</configuration>
-	</plugin>
-
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<configuration>
+					<user>root</user>
+					<password>toor</password>
+					<schemas>
+						<schema>moneyapi</schema>
+					</schemas>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
