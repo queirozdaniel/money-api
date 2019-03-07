@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		  <aspectj.version>1.8.9</aspectj.version>
 	</properties>
 
 	<dependencies>
